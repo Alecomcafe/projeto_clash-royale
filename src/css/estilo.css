@@ -1,0 +1,96 @@
+body{
+    background-image: url(../Personagens/fundo\ body2.jpg);
+    border: 5px solid white;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 150rem;  
+
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.fundo{
+    /*background: url(../Personagens/fundo\ cartão.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:1px;
+    width: 10%;*/
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 300px;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: rgba(11, 10, 10, 0.752) 0px 13px 27px -5px, rgba(214, 122, 122, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.personagem{
+    width: 90%;
+    margin: 20px;
+}
+
+.fundo-cartao{
+    background: url(../Personagens/fundo\ cartao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.nome{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+.informacao{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    opacity: 0.7;
+    font-family: 'quicksand', sans-serif;
+}
+
+.conteudo{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 96%;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    
+}
+
+.caixa-conteudo{
+  
+    height: 100%;
+}
+
